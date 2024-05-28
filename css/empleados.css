@@ -1,0 +1,47 @@
+#empleados {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: start;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+.empleados-container{
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empleados-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.empleados-data-table th,
+.empleados-data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.empleados-data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.empleados-data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.empleados-data-table tbody tr:hover {
+    background-color: #f2f2f2;
+}

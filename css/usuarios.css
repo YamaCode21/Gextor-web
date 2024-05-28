@@ -1,0 +1,57 @@
+#usuarios {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: start;
+    z-index: 1;
+}
+
+.usuarios-container{
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.input-container div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.labels {
+    background-color: rgb(221, 221, 221);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.input-container input {
+    height: 30px;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px 0;
+    background: linear-gradient(to right, rgb(97, 61, 173), rgb(163,88,249));
+    border: none;
+    cursor: pointer;
+    color: white;
+}
